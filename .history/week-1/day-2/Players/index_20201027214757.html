@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Music Players</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Week 1 Day 2 Exercises</h1>
+
+    <h1>Video Player</h1>
+
+    <video controls width="350" height="400">
+      <source src="./Sound of Silence.mp4" type="video/mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <h1>Music Player</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Artist</th>
+          <th>Song</th>
+          <th>Track</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Little Sis Nora</td>
+          <td>Rave in the Grave</td>
+          <td>Aronchupa</td>
+          <td>
+            <audio controls src="./RaveInTheGrave.mp3">
+              Your browser does not support the
+              <code>audio</code> element.
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Greg Dombrowski</td>
+          <td>Heroes</td>
+          <td>Secession Heroes</td>
+          <td>
+            <audio controls src="./Villains.mp3">
+              Your browser does not support the
+              <code>audio</code> element.
+            </audio>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>My janky Form</h1>
+
+    <form action="#">
+      <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" />
+      </div>
+      <div>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" />
+      </div>
+      <div>
+        <label for="email">email</label>
+        <input type="text" name="email" />
+      </div>
+    </form>
+
+    <h1>My table form</h1>
+
+    <table>
+      <tr>
+        <td>
+          <label for="firstName">First Name</label>
+        </td>
+        <td>
+          <input type="text" name="firstName" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
