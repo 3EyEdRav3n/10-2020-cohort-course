@@ -3,17 +3,14 @@
 .Div1 {
     background-color: rgb(160, 75, 49);
     text-transform: lowercase;
-    font-family: 'Roboto', sans-serif;
 }
 
 .Div2 {
     background-color: #27CCD2 ;
     text-align:  right;
-    font-family: 'Roboto', sans-serif;
 }
 
 .Div3 {
     background-color: blue;
     font-size: 58px;
-    font-family: 'Roboto', sans-serif;
 }

@@ -1,7 +1,6 @@
 
 body {
   background-color: rgb(45, 7, 8);
-  font-family: 'Roboto', sans-serif;
 }
 
 p {
@@ -15,10 +14,4 @@ h1{
   /* left, center, right, bottom, top */
   text-align: center; 
   text-transform: uppercase;
-  text-decoration: underline;
-  line-height: 22px;
-  font-weight: bold;
-  font-style: italic;
-  font-family: sans-serif;
-  font-size:150px;
 }
