@@ -1,41 +1,36 @@
 
-body {
-        background-color: #d4edf5;
-}
-
 .container{
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif;
-        min-height:100%;
+        min-height:500px;
         padding: 1%;
 }
 .left-col{
+        background-image: url("/images/liberty.jpg");
         background-position: bottom center;
         background-size: 30%;
+        background-color: #cccccc;
         float: left;
         text-align: center;
         width: 30%;
 }
 .center-col{
+        background-color: yellow;
         border-left: 10px solid;
         border-right: 10px solid;
         float: left;
-        padding: 0px;
         text-align: left;
         width: 33%;
 }
 .right-col{
+        background-image: url("/images/lincoln.jpg");
         background-position: bottom center;
         background-size: 30%;
+        background-color: #cccccc;
         float: left;
         text-align: center;
         width: 30%;
         
-}
-.contact{
-        font-weight: bold;
-        text-align: center;
-        text-decoration:underline;     
 }
 .ph{
         padding-top: 10px;
@@ -52,9 +47,7 @@ body {
         padding-bottom: 0px;
         text-align: left;
 }
-.follow{
-        text-decoration:underline;
-}
+
 
 h1 {
         font-family: 'Open Sans', sans-serif;

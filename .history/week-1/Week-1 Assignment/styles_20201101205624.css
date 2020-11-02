@@ -1,0 +1,43 @@
+
+.header{        
+        font-family: 'Roboto Slab', serif;
+        background-color: darkblue;
+        text-align: center;
+        padding:1px;
+
+}
+.container{
+        font-family: 'Open Sans', sans-serif;
+}
+.left-col{
+        background-image: url("/images/lincoln.jpg");
+        background-color: #cccccc;
+        text-align: center;
+        width: 33%;
+        float: left;
+}
+.center-col{
+        background-color: yellow;
+        text-align: center;
+        width: 33%;
+        float: center;
+}
+.right-col{
+        background-color: #cccccc;
+        width: 33%;
+        text-align: center;
+        float: right;
+}
+.footer{
+        font-family: 'Roboto Slab', serif;
+        background-color: darkcyan;
+        text-align: center;
+        height: 10rem;
+        padding-top: 10px;
+        box-sizing: border-box;
+}
+
+
+h1 {
+        font-family: 'Open Sans', sans-serif;
+}

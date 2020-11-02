@@ -1,8 +1,4 @@
 
-body {
-        background-color: #d4edf5;
-}
-
 .container{
         box-sizing: border-box;
         font-family: 'Open Sans', sans-serif;
@@ -10,13 +6,16 @@ body {
         padding: 1%;
 }
 .left-col{
+        background-image: url("/images/liberty.jpg");
         background-position: bottom center;
         background-size: 30%;
+        background-color: #cccccc;
         float: left;
         text-align: center;
         width: 30%;
 }
 .center-col{
+        background-color: opaque;
         border-left: 10px solid;
         border-right: 10px solid;
         float: left;
@@ -25,8 +24,10 @@ body {
         width: 33%;
 }
 .right-col{
+        background-image: url("/images/lincoln.jpg");
         background-position: bottom center;
         background-size: 30%;
+        background-color: #cccccc;
         float: left;
         text-align: center;
         width: 30%;
