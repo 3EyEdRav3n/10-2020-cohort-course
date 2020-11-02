@@ -63,14 +63,20 @@ body {
         text-decoration:underline;
 }
 .auc{
+        border-top: 10px solid;
+        border-bottom: 10px solid;
         font-weight: 900;
         text-decoration-style: wavy;
         
 }
 
+.liberty{
+        image-resolution: 96dpi;
+        position: relative;
+        top: 40px; left: 80px;
+}
+
 h1{
         font-family: 'Open Sans', sans-serif;
 }
-p{
-        line-height-step: 1pt;
-}
+
