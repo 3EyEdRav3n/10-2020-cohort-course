@@ -1,0 +1,18 @@
+
+.header{        
+        font-family: 'Roboto Slab', serif;
+        background-color: darkblue;
+        tet-align: center;
+
+}
+.container{
+        font-family: 'Open Sans', sans-serif;
+}
+.footer{
+        font-family: 'Roboto Slab', serif;
+}
+
+
+h1 {
+        font-family: 'Open Sans', sans-serif;
+}
