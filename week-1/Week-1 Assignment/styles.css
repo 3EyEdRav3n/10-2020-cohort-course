@@ -66,6 +66,8 @@ body {
         border-top: 10px solid;
         border-bottom: 10px solid;
         font-weight: 900;
+        position: relative;
+        top: 10px;
         text-decoration-style: wavy;
         
 }
@@ -73,7 +75,11 @@ body {
 .liberty{
         image-resolution: 96dpi;
         position: relative;
-        top: 40px; left: 80px;
+        top: 15px; left: 80px;
+}
+.lincoln{
+        position: relative;
+        top: 118px;
 }
 
 h1{
