@@ -1,6 +1,6 @@
 
 body {
-        background-color: #d4edf5;
+        background-color: #e8e8e8;
 }
 
 .container{
@@ -13,6 +13,7 @@ body {
         background-position: bottom center;
         background-size: 30%;
         float: left;
+        line-height: normal;
         text-align: center;
         width: 30%;
 }
@@ -20,42 +21,56 @@ body {
         border-left: 10px solid;
         border-right: 10px solid;
         float: left;
-        padding: 0px;
+        line-height: normal;
+        padding: 10px;
         text-align: left;
         width: 33%;
+        line-height:75px;
 }
 .right-col{
         background-position: bottom center;
         background-size: 30%;
         float: left;
+        padding: 10px;
         text-align: center;
-        width: 30%;
-        
+        width : 30%;   
 }
 .contact{
         font-weight: bold;
+        letter-spacing: 1px;
         text-align: center;
         text-decoration:underline;     
 }
 .ph{
-        padding-top: 10px;
+        line-height-step: 18pt;
+        padding-top: 0px;
         padding-bottom: 0px;
         text-align: left;
 }
 .em{
-        padding-top: 10px;
+        line-height-step: 18pt;
+        padding-top: 00px;
         padding-bottom: 0px;
         text-align: left;
 }
 .add{
-        padding-top: 10px;
+        line-height-step: 18pt;
+        padding-top: 0px;
         padding-bottom: 0px;
         text-align: left;
 }
 .follow{
         text-decoration:underline;
 }
+.auc{
+        font-weight: 900;
+        text-decoration-style: wavy;
+        
+}
 
-h1 {
+h1{
         font-family: 'Open Sans', sans-serif;
+}
+p{
+        line-height-step: 1pt;
 }
