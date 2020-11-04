@@ -1,1 +1,32 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carousel</title>
+        <style>
+                @keyframes example {
+                        from {transform: translateX(0px);}
+                        to {transform: translateX(-364px);}
+                }
+
+                #imageSlider{
+                        animation-name: example;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                }
+        </style>
+</head>
+<body>
+        <div id="window" style="background-color: aqua; width: 200px; height: 200px; margin: 0 auto; overflow: hidden;">
+                <div id="image slider" style: flex;>
+                        <img width="200px" height="200px" src="./me.png" alt="Me">
+                        <img width="200px" height="200px" src="./me.png" alt="Me">
+                        <img width="200px" height="200px" src="./me.png" alt="Me">
+                </div>
+
+        </div>
+        
+</body>
+</html>
