@@ -1,32 +1,81 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Carousel</title>
-        <style>
-                @keyframes example {
-                        from {transform: translateX(0px);}
-                        to {transform: translateX(-364px);}
-                }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Carousel</title>
+    <!-- <style>
+      @keyframes example {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(-364px);
+        }
+      }
 
-                #imageSlider{
-                        animation-name: example;
-                        animation-duration: 4s;
-                        animation-iteration-count: infinite;
-                }
-        </style>
-</head>
-<body>
-        <div id="window" style="background-color: aqua; width: 200px; height: 200px; margin: 0 auto; overflow: hidden;">
-                <div id="image slider" style: flex;>
-                        <img width="200px" height="200px" src="./me.png" alt="Me">
-                        <img width="200px" height="200px" src="./me.png" alt="Me">
-                        <img width="200px" height="200px" src="./me.png" alt="Me">
-                </div>
+      #imageSlider {
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      } -->
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="lil-nav">
+        <a href="#image-1">
+          <img class="lil-nav__img" src="./bigsandy.JPG" alt="BigSandy" />
+        </a>
+        <a href="#image-2">
+          <img
+            class="lil-nav__img"
+            src="./NewYorkHeartbeat.jpg"
+            alt="NYHeatbeat"
+          />
+        </a>
+        <a href="#image-3">
+          <img class="lil-nav__img" src="./Iceberg.jpg" alt="Iceberg" />
+        </a>
+      </nav>
 
-        </div>
-        
-</body>
+      <div
+        id="window"
+        style="
+          background-color: aqua;
+          width: 200px;
+          height: 200px;
+          margin: 0 auto;
+          overflow: hidden;
+        "
+      >
+        <div id="gallery" style: flex;>
+        <img
+          class="gallery_img"
+          id="image1"
+          width="200px"
+          height="200px"
+          src="./bigsandy.JPG"
+          alt="BigSandy"
+        />
+        <img
+          class="gallery_img"
+          id="image2"
+          width="200px"
+          height="200px"
+          src="./NewYorkHeartbeat.jpg"
+          alt="NYHeartbreak"
+        />
+        <img
+          class="gallery_img"
+          id="image3"
+          width="200px"
+          height="200px"
+          src="./Iceberg.jpg"
+          alt="Iceberg"
+        />
+      </div>
+    </div>
+  </body>
 </html>
