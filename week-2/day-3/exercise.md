@@ -7,7 +7,7 @@ Example: Grab the HERO!
 `document.body.lastChild.previousSibling`
 
 1. Grab David
-
+   `document.body.
 2. Grab Steve
 
 3. Grab Sean
