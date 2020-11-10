@@ -1,0 +1,9 @@
+#imageslider {
+    display: flex;
+    overflow: hidden;
+}
+#window {
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}

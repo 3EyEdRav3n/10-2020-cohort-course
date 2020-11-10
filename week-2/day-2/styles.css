@@ -98,3 +98,20 @@ img {
 #item-3{
         min-height: 300px;
 } */
+
+
+      @keyframes example {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+          transform: translateX(-364px);
+        }
+      }
+
+      #imageSlider {
+        animation-name: example;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+      } 
+    </style>

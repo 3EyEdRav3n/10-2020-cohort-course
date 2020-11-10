@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>W2D4 - JS Carousel</title>
+  </head>
+  <body>
+    <!--       
+      1. create div for window content
+      2. create div for imageslider content
+      3. add images of the similar sizes
+      4. normalize the image sizes to be the same
+      5. Use flexbox to stack the images on one another
+    -->
+
+    <div id="window">
+      <div id="imageslider">
+        <img
+          class="gallery_img"
+          id="image1"
+          width="450px"
+          height="400px"
+          src="./images/CyberEarth.JPG"
+          alt="Cyber Earth"
+        />
+        <img
+          class="gallery_img"
+          id="image2"
+          width="450px"
+          height="400px"
+          src="./images/NewYorkHeartbeat.jpg"
+          alt="NYHeartbreak"
+        />
+        <img
+          class="gallery_img"
+          id="image3"
+          width="400px"
+          height="400px"
+          src="./images/Iceberg.jpg"
+          alt="Iceberg"
+        />
+      </div>
+    </div>
+
+    <button onclick="prevImage()">Prev</button>
+    <button onclick="nextImage()">Next</button>
+
+    <!-- Put the Java script code file here.
+    It must be put in after the html code loads -->
+    <script>
+      index.js;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Carousels</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left">
+        <img src="./images/left.jpg" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img
+              class="carousel__image"
+              src="./images/CyberEarth.jpg"
+              alt="cyber"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="./images/cybersecurity.jpg"
+              alt="cyber"
+            />
+          </li>
+          <li class="carousel__slide">
+            <img
+              class="carousel__image"
+              src="./images/cyberMap.jpg"
+              alt="cyber"
+            />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./images/right.jpg" alt="" />
+      </button>
+
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button>
+        <button class="carousel__indicator"></button>
+        <button class="carousel__indicator"></button>
+      </div>
+    </div>
+
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>

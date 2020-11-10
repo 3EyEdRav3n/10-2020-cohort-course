@@ -1,0 +1,81 @@
+.carousel {
+    position: relative;
+    height: 600px;
+    width: 80%;
+    margin: 0 auto;             /* This is the setting to be in the middle */
+}
+
+.carousel__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;          /* this was a solution to a huge headache for me. */
+                                /* This should be a flexbox here... */
+}
+
+.carousel__track-container {
+    background-color: lightgrey;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel__track {
+    padding: 0px;
+    margin: 0;
+    margin: 0;list-style: none;
+    position: relative;
+    height: 100%;
+    transition: transform 250ms ease-in;
+}
+
+.carousel__slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.carousel__button{
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);        /* Putting the button in the center of the image container */
+}
+
+.carousel__button--left{
+    left: -40px;
+}
+
+.carousel__button--right{
+    right: -40px;
+}
+
+.carousel__button img{
+    width: 12px;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.carousel__indicator {
+    background: rgba(0, 0, 0, 0.3);
+    border: 0px;
+    border-radius:50%;
+    cursor: pointer;
+    margin: 0 12px;
+    height: 15px;
+    width: 15px;
+}
+
+.carousel__indicator.current-slide {
+    background: rgba(0,0,0,.75);
+}
+
+.is-hidden {
+    display: none;
+}
