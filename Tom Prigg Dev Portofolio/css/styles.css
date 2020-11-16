@@ -1,0 +1,33 @@
+/******************** TAG *********************/
+
+body {
+    margin: 8;
+}
+
+h1 {
+    margin-top: 8;
+}
+a{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+/******************* Classes ******************/
+
+.top-container {
+    background-color: goldenrod;
+    border: solid 10px;
+    border-color: black;
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.pro {
+    text-decoration: underline;
+}
